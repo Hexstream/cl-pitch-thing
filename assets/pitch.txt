@@ -1,0 +1,27 @@
+Please learn Common Lisp, the best programming language in the world!
+
+Common Lisp is the best multi-paradigm general-purpose programming language out of the box, and can absorb almost any paradigm or feature as a library, and you can build up the language to represent any specialized domain exactly, resulting in vastly smaller codebases that are inherently much easier to maintain.
+
+Common Lisp notably features CLOS/MOP, by far the best object-oriented system in the world, notably featuring Generic Functions, a complete game-changer!
+
+Macros are of course legendary, allowing you to seamlessly integrate new constructs into the language, as if they had been built-in all along, using the full power of the language!
+
+This is just a small glimpse at the huge palace of wonders you will discover if you learn Common Lisp!
+
+----------
+
+I love Kent Pitman's famous quote:
+
+"Please don't assume Lisp is only useful for Animation and Graphics, AI, Bioinformatics, B2B and Ecommerce, Data Mining, EDA/Semiconductor applications, Expert Systems, Finance, Intelligent Agents, Knowledge Management, Mechanical CAD, Modeling and Simulation, Natural Language, Optimization, Research, Risk Analysis, Scheduling, Telecom, and Web Authoring just because these are the only things they happened to list."
+
+----------
+
+Right now, the biggest Common Lisp success story is ITA Software which sold to Google for 700 million dollars in 2010.
+
+I believe there will be even bigger Common Lisp success stories one day!
+
+(Sorry about the ALL CAPS, but too many people were overlooking this and it's important:)
+
+CHECK OUT THE COMMON LISP OPEN SOURCE GROUP DESCRIPTION FOR A FEW POINTERS ON HOW TO GET STARTED!!!
+
+https://www.linkedin.com/groups/8876366

@@ -1,0 +1,21 @@
+Common Lisp is the best programming language in the world! Let's make it the most popular programming language in the world! The Great Common Lisp Revival is nigh! Join the revolution!
+
+To start, use the recommended stack:
+Emacs, Slime, SBCL, Quicklisp.
+
+And use the best book, Practical Common Lisp, available for free online:
+https://hexstream.link/pcl
+
+To achieve the fastest and deepest possible mastery, take a deep dive into the CLHS, our "bible":
+https://hexstream.link/clhs
+
+Also check out the Common Lisp Cookbook!
+https://hexstream.link/cookbook
+
+Discover Common Lisp Open Source contributors and their best contributions! Add yourself!
+https://common-lispers.hexstreamsoft.com/
+
+The purpose of this group is to discuss Common Lisp Open Source.
+Off-topic messages will be ruthlessly deleted.
+
+Please invite everyone interested in programming to this group! Everyone should know about Common Lisp, the best programming language in the world!

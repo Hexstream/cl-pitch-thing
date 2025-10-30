@@ -1,0 +1,14 @@
+blockquote {
+    padding-left: 0.5em;
+    border-left: thin solid black;
+    margin-left: 1.5em;
+}
+
+#success-stories .tabs {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+p:has(+ .cards) {
+    margin-bottom: -1em;
+}

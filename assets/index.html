@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="canonical" href="https://blog.hexstream.expert/cl-pitch-thing/" />
+    <meta name="author" content="Jean-Philippe Paradis" />
+    <link rel="author" href="https://abc.hexstream.xyz/" />
+    <link rel="license" href="https://www.hexstreamsoft.com/UNLICENSE" />
+    <meta name="description" content="Why and how to get started with Common Lisp in 2025." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hexstream's Common Lisp pitch thing | Articles | HexstreamSoft</title>
+    <link rel="stylesheet" type="text/css" href="https://global.hexstream.dev/css/global.css" />
+    <link rel="stylesheet" type="text/css" href="https://global.hexstream.dev/css/section-nav.css" />
+    <link rel="stylesheet" type="text/css" href="https://global.hexstream.dev/css/subsections.css" />
+    <link rel="stylesheet" type="text/css" href="https://global.hexstream.dev/css/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="https://global.hexstream.dev/css/cards.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="preload" as="font" type="font/woff2" href="https://global.hexstream.dev/fonts/kaushan-script/KaushanScript-Regular.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="https://global.hexstream.dev/fonts/liberation/LiberationSerif-Regular.woff2" crossorigin />
+    <script src="https://global.hexstream.dev/scripts/arrows-madness.mjs" type="module"></script>
+  </head>
+
+  <body>
+
+    <nav id="top-nav">
+
+      <div class="main">
+
+        <div class="breadcrumbs">
+          <a href="https://www.hexstreamsoft.com/">HexstreamSoft</a>
+          <span class="crumb"><span class="s"> » </span><a href="https://www.hexstreamsoft.com/articles/">Articles</a></span>
+          <span class="crumb"><span class="s"> » </span><a class="here">CL pitch thing</a></span>
+        </div>
+
+        <nav class="tabs" id="meta-nav">
+          <ul>
+            <li><a class="shortlink" href="https://hexstream.link/cl">🔗 hexstream.link/cl</a></li>
+            <li><a class="github" href="https://github.com/Hexstream/cl-pitch-thing"><span>See on GitHub</span></a></li>
+          </ul>
+        </nav>
+
+      </div>
+
+      <p id="last-updated"><span>This page was last updated on </span><time datetime="2025-10-29">29 october 2025</time><span>.</span></p>
+
+    </nav>
+
+    <main>
+
+      <header id="page-header">
+        <h1>Hexstream's Common Lisp pitch&nbsp;thing</h1>
+        <p class="description">Why and how to get started with Common Lisp in 2025.</p>
+      </header>
+
+      <nav class="tabs">
+        <ul>
+          <li><a href="#preamble">Preamble</a></li>
+          <li><a href="#pitch">The pitch</a></li>
+          <li><a href="#stack">Recommended stack</a></li>
+          <li><a href="#resources">Important resources to get started</a></li>
+          <li><a href="#success-stories">Success stories</a></li>
+          <li><a href="#news-feeds">News feeds</a></li>
+        </ul>
+      </nav>
+
+      <section id="preamble">
+
+        <h1 class="breadcrumbs-bar">
+          <span class="section-relative-nav">
+            <a href="#preamble" class="anchor">⚓</a>
+          </span>
+          <span class="breadcrumbs">
+            <a class="here">Preamble</a>
+          </span>
+        </h1>
+
+        <p>I fairly quickly consolidated the following pitch from my initially completely manual, custom, one-on-one Common Lisp promotion efforts on LinkedIn.<br />I then proceeded to copy/paste it trillions of times, but of course this has always been just a temporary stopgap measure.<br />Now, I finally ported it to HTML for much better usability and shareability, so definitely use it and share it. :)</p>
+
+        <p><strong>This article concisely consolidates a lot of important, up-to-date information in one place.<br />I recommend wide dissemination to help the Common Lisp community grow. Thank you!</strong></p>
+
+      </section>
+
+      <section id="pitch">
+
+        <h1 class="breadcrumbs-bar">
+          <span class="section-relative-nav">
+            <a href="#pitch" class="anchor">⚓</a>
+          </span>
+          <span class="breadcrumbs">
+            <a class="here">The pitch</a>
+          </span>
+        </h1>
+
+        <section class="subsection" id="pitch_introduction">
+
+          <p><strong>Please learn Common Lisp, <em>the best programming language in the world!</em></strong></p>
+
+          <p>Common Lisp is the best multi-paradigm general-purpose programming language out of the box, and can absorb almost any paradigm or feature as a library, and you can build up the language to represent any specialized domain exactly, resulting in vastly smaller codebases that are inherently much easier to maintain.</p>
+
+          <p>Common Lisp notably features CLOS/MOP, by far the best object-oriented system in the world, notably featuring Generic Functions, a complete game-changer!</p>
+
+          <p>Macros are of course legendary, allowing you to seamlessly integrate new constructs into the language, as if they had been built-in all along, using the full power of the language!</p>
+
+          <p>This is just a small glimpse at the huge palace of wonders you will discover if you learn Common Lisp!</p>
+
+        </section>
+
+        <hr />
+
+        <section class="subsection" id="pitch_quote">
+
+          <p>I love Kent Pitman's famous quote:</p>
+
+          <blockquote>
+            <p>Please don't assume Lisp is only useful for Animation and Graphics, AI, Bioinformatics, B2B and Ecommerce, Data Mining, EDA/Semiconductor applications, Expert Systems, Finance, Intelligent Agents, Knowledge Management, Mechanical CAD, Modeling and Simulation, Natural Language, Optimization, Research, Risk Analysis, Scheduling, Telecom, and Web Authoring just because these are the only things they happened to list.</p>
+          </blockquote>
+
+        </section>
+
+        <hr />
+
+        <section class="subsection" id="pitch_conclusion">
+
+          <p>
+            <strong>Right now, the biggest Common Lisp success story is ITA Software which sold to Google for 700 million dollars in 2010.</strong>
+            <br />
+            <em>I believe there will be even bigger Common Lisp success stories one day!</em>
+          </p>
+
+          <p><strong>Please see the important information below to get started with Common Lisp, <em>the best programming language in the world!</em></strong></p>
+
+        </section>
+
+      </section>
+
+      <section id="stack">
+
+        <h1 class="breadcrumbs-bar">
+          <span class="section-relative-nav">
+            <a href="#stack" class="anchor">⚓</a>
+          </span>
+          <span class="breadcrumbs">
+            <a class="here">Recommended stack</a>
+          </span>
+        </h1>
+
+        <p>
+          <strong>Most Common Lispers today use the following stack and are very happy with it.</strong>
+          <br />
+          <small>(Alternatives exist, but you don't need to think about them at first and can easily switch later anyway.)</small>
+        </p>
+
+        <div class="cards">
+
+          <article class="card" id="emacs">
+            <h1><a href="https://www.gnu.org/software/emacs/" target="_blank">Emacs</a></h1>
+            <p class="hoisted"><a href="#emacs" class="self-link">⚓</a></p>
+            <p class="description">
+              The best text editor in the world!
+              <br />
+              A very advanced and programmable IDE.
+            </p>
+          </article>
+
+          <article class="card" id="slime">
+            <h1><a href="https://slime.common-lisp.dev/" target="_blank">Slime</a></h1>
+            <p class="hoisted"><a href="#slime" class="self-link">⚓</a></p>
+            <p class="description">Integrates Emacs with Common Lisp.</p>
+          </article>
+
+          <article class="card" id="sbcl">
+            <h1><a href="https://www.sbcl.org/" target="_blank">SBCL</a></h1>
+            <p class="hoisted"><a href="#sbcl" class="self-link">⚓</a></p>
+            <p class="description">By far the most popular and best supported <abbr title="Common Lisp">CL</abbr> implementation!</p>
+          </article>
+
+          <article class="card" id="quicklisp">
+            <h1><a href="https://www.quicklisp.org/beta/" target="_blank">Quicklisp</a></h1>
+            <p class="hoisted"><a href="#quicklisp" class="self-link">⚓</a></p>
+            <p class="description">
+              De facto standard Common Lisp "package manager".
+              <br />
+              Use the <a href="https://ultralisp.org/" target="_blank">Ultralisp</a> Quicklisp dist for instant updates.
+            </p>
+          </article>
+
+        </div>
+
+      </section>
+
+      <section id="resources">
+
+        <h1 class="breadcrumbs-bar">
+          <span class="section-relative-nav">
+            <a href="#resources" class="anchor">⚓</a>
+          </span>
+          <span class="breadcrumbs">
+            <a class="here">Important resources to get started</a>
+          </span>
+        </h1>
+
+        <div class="cards">
+
+          <article class="card" id="pcl">
+            <h1><a href="https://hexstream.link/pcl" target="_blank">Practical Common Lisp</a></h1>
+            <p class="hoisted"><a href="#pcl" class="self-link">⚓</a></p>
+            <p class="description">The most critically acclaimed Common Lisp book!</p>
+          </article>
+
+          <article class="card" id="clhs">
+            <h1><a href="https://hexstream.link/clhs" target="_blank">Common Lisp HyperSpec (CLHS)</a></h1>
+            <p class="hoisted"><a href="#clhs" class="self-link">⚓</a></p>
+            <p class="description">
+              To achieve the fastest and deepest possible mastery, take a deep dive into the CLHS, our "bible".
+              <br />
+              It is still our most important resource, despite the dated presentation. <a href="https://roadmap.hexstreamsoft.com/#public-domain-spiritual-successor-to-the-clhs" target="_blank">A better version is planned.</a>
+            </p>
+          </article>
+
+          <article class="card" id="mop">
+            <h1><a href="https://hexstream.link/mop" target="_blank">CLOS MOP</a></h1>
+            <p class="hoisted"><a href="#mop" class="self-link">⚓</a></p>
+            <p class="description">The most important de facto standard Common Lisp extension.</p>
+          </article>
+
+          <article class="card" id="format">
+            <h1><a href="https://hexstream.link/format" target="_blank">Epic FORMAT table!</a></h1>
+            <p class="hoisted"><a href="#format" class="self-link">⚓</a></p>
+            <p class="description">Helping you tame the beast. :)</p>
+          </article>
+
+          <article class="card" id="notes-and-tips">
+            <h1><a href="https://notes-and-tips.hexstreamsoft.com/" target="_blank">Notes and tips: Standard Common Lisp symbols</a></h1>
+            <p class="hoisted"><a href="#notes-and-tips" class="self-link">⚓</a></p>
+            <p class="description">Groups related Common Lisp symbols in various ways.</p>
+          </article>
+
+          <article class="card" id="cookbook">
+            <h1><a href="https://hexstream.link/cookbook" target="_blank">Common Lisp cookbook</a></h1>
+            <p class="hoisted"><a href="#cookbook" class="self-link">⚓</a></p>
+            <p class="description">
+              Tons of complementary explanations and examples.
+            </p>
+          </article>
+
+          <article class="card" id="awesome-cl">
+            <h1><a href="https://hexstream.link/awesome-cl" target="_blank">Awesome Common Lisp</a></h1>
+            <p class="hoisted"><a href="#awesome-cl" class="self-link">⚓</a></p>
+            <p class="description">A curated list of <em>awesome</em> Common Lisp libraries.</p>
+          </article>
+
+          <article class="card" id="cliki">
+            <h1><a href="https://www.cliki.net/" target="_blank">CLiki</a></h1>
+            <p class="hoisted"><a href="#cliki" class="self-link">⚓</a></p>
+            <p class="description">
+              A huge repository of information about Common Lisp.
+              <br />
+              <a href="https://www.cliki.net/Current%20recommended%20libraries" target="_blank">Current recommended libraries</a> is an important page.
+            </p>
+          </article>
+
+          <article class="card" id="common-lispers-list">
+            <h1><a href="https://common-lispers.hexstreamsoft.com/" target="_blank">Common Lispers list</a></h1>
+            <p class="hoisted"><a href="#common-lispers-list" class="self-link">⚓</a></p>
+            <p class="description">Discover Common Lisp Open Source contributors and their best contributions!</p>
+          </article>
+
+        </div>
+
+      </section>
+
+      <section id="success-stories">
+
+        <h1 class="breadcrumbs-bar">
+          <span class="section-relative-nav">
+            <a href="#success-stories" class="anchor">⚓</a>
+          </span>
+          <span class="breadcrumbs">
+            <a class="here">Success stories</a>
+          </span>
+        </h1>
+
+        <p id="ita-software">
+          <strong>Right now, the biggest Common Lisp success story is <a href="https://en.wikipedia.org/wiki/ITA_Software" target="_blank">ITA Software</a> which sold to Google for 700 million dollars in 2010.</strong>
+          <br />
+          <em>I believe there will be even bigger Common Lisp success stories one day!</em>
+        </p>
+
+        <p id="kandria">I think <a href="https://kandria.com/" target="_blank">Kandria</a> is worthy of a special mention. It's a complete game written entirely in Common Lisp, and <a href="https://codeberg.org/shirakumo/kandria" target="_blank">open source</a> to boot!</p>
+
+        <p>Here are a few collections of Common Lisp success stories:</p>
+
+        <nav class="tabs">
+          <ul>
+            <li><a href="https://www.lispworks.com/success-stories/" target="_blank">LispWorks</a></li>
+            <li><a href="https://franz.com/success/" target="_blank">Franz</a></li>
+            <li><a href="https://github.com/azzamsa/awesome-lisp-companies" target="_blank">Awesome Lisp companies</a></li>
+          </ul>
+        </nav>
+
+      </section>
+
+      <section id="news-feeds">
+
+        <h1 class="breadcrumbs-bar">
+          <span class="section-relative-nav">
+            <a href="#news-feeds" class="anchor">⚓</a>
+          </span>
+          <span class="breadcrumbs">
+            <a class="here">News feeds</a>
+          </span>
+        </h1>
+
+        <p>You may like to subscribe to the following to keep track of new developments in the Common Lisp world.</p>
+
+        <div class="cards">
+
+          <article class="card" id="planet-lisp">
+            <h1><a href="https://planet.lisp.org/" target="_blank">Planet Lisp</a></h1>
+            <p class="hoisted"><a href="#planet-lisp" class="self-link">⚓</a></p>
+            <p class="description">A very popular and fairly comprehensive Common Lisp blog aggregator.</p>
+          </article>
+
+          <article class="card" id="reddit">
+            <h1><a href="https://www.reddit.com/r/lisp/" target="_blank">/r/lisp</a></h1>
+            <p class="hoisted"><a href="#reddit" class="self-link">⚓</a></p>
+            <p class="description">Popular reddit community about Common Lisp and other Lisps.</p>
+          </article>
+
+          <article class="card" id="quicklisp-projects">
+            <h1><a href="https://github.com/quicklisp/quicklisp-projects" target="_blank">quicklisp-projects</a></h1>
+            <p class="hoisted"><a href="#quicklisp-projects" class="self-link">⚓</a></p>
+            <p class="description">Watch this repo for an almost complete set of new Common Lisp libraries.</p>
+          </article>
+
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer id="footer">
+      <div class="back-to-top left">
+        <a href="#">⬆</a>
+      </div>
+      <div class="main">
+        <a href="https://hexstream.link/validate?type=html&url=https://www.hexstreamsoft.com/articles/cl-pitch-thing/" target="_blank">✔ HTML5</a>
+        <a href="https://blog.hexstream.expert/UNLICENSE" target="_blank">✔ Public Domain</a>
+        <a href="https://hexstream.link/validate?type=css&url=https://www.hexstreamsoft.com/articles/cl-pitch-thing/" target="_blank">✔ CSS3</a>
+        <a>✔ Mobile-friendly</a>
+      </div>
+      <div class="back-to-top right">
+        <a href="#">⬆</a>
+      </div>
+    </footer>
+
+  </body>
+</html>
